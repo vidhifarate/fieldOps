@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+out/
+*.tsbuildinfo
+
+# Environment variables
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor/System files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.log
+
+# Optional: pnpm specific
+# If you want to keep the lockfile in your repo, do not ignore it.
+# If you want to ignore the pnpm store:
+.pnpm-store/
